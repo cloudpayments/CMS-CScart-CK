@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::cloudkassir"
+msgid "CloudKassir: Online cash register"
+msgstr "CloudKassir: Сервис онлайн кассы"
+
+msgctxt "Addons::description::cloudkassir"
+msgid "Integrates your store with CloudKassir, a Russian online cash register service"
+msgstr "Интеграция интернет-магазина с сервисом онлайн кассы CloudKassir"
+
+msgctxt "SettingsSections::cloudkassir::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::cloudkassir::public_id"
+msgid "Public ID"
+msgstr "Идентификатор сайта"
+
+msgctxt "SettingsOptions::cloudkassir::secret_key"
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+msgctxt "SettingsOptions::cloudkassir::inn"
+msgid "INN"
+msgstr "ИНН"
+
+msgctxt "SettingsOptions::cloudkassir::currency"
+msgid "Currency"
+msgstr "Валюта"
+
+msgctxt "SettingsOptions::cloudkassir::taxation_system"
+msgid "Taxation system"
+msgstr "Система налогообложения"
+
+msgctxt "Languages::cloudkassir.taxation_system.osn"
+msgid "General taxation system"
+msgstr "Общая система налогообложения"
+
+msgctxt "Languages::cloudkassir.taxation_system.usn_income"
+msgid "Simplified taxation system (Income)"
+msgstr "Упрощенная система налогообложения (Доход)"
+
+msgctxt "Languages::cloudkassir.taxation_system.usn_income_outcome"
+msgid "Simplified taxation system (Income minus Expenditure)"
+msgstr "Упрощенная система налогообложения (Доход минус Расход)"
+
+msgctxt "Languages::cloudkassir.taxation_system.envd"
+msgid "A single tax on imputed income"
+msgstr "Единый налог на вмененный доход"
+
+msgctxt "Languages::cloudkassir.taxation_system.esn"
+msgid "Unified agricultural tax"
+msgstr "Единый сельскохозяйственный налог"
+
+msgctxt "Languages::cloudkassir.taxation_system.patent"
+msgid "Patent system of taxation"
+msgstr "Патентная система налогообложения"
+
+msgctxt "SettingsOptions::cloudkassir::statuses_paid"
+msgid "Statuses for paid orders"
+msgstr "Статусы оплаченных заказов"
+
+msgctxt "SettingsTooltips::cloudkassir::statuses_paid"
+msgid "When an order gets one of these statuses, a sales receipt is issued."
+msgstr "Когда заказ получает один из этих статусов, пробивается чек продажи."
+
+msgctxt "SettingsOptions::cloudkassir::statuses_refund"
+msgid "Statuses for refunded orders"
+msgstr "Статусы возвращённых заказов"
+
+msgctxt "SettingsTooltips::cloudkassir::statuses_refund"
+msgid "When an order gets one of these statuses, a full return receipt is issued."
+msgstr "Когда заказ получает один из этих статусов, пробивается чек полного возврата."
+
+msgctxt "Languages::cloudkassir.payment_send_cloudkassir"
+msgid "Send receipt data to CloudKassir"
+msgstr "Отправлять данные для чеков в CloudKassir"

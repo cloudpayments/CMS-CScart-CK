@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cloudkassir</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <compatibility>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="public_id">
+                        <type>text</type>
+                    </item>
+                    <item id="secret_key">
+                        <type>password</type>
+                    </item>
+                    <item id="inn">
+                        <type>text</type>
+                    </item>
+                    <item id="taxation_system">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="currency">
+                        <type>selectbox</type>
+                        <default_value>RUB</default_value>
+                    </item>
+                    <item id="statuses_paid">
+                        <type>multiple select</type>
+                    </item>
+                    <item id="statuses_refund">
+                        <type>multiple select</type>
+                    </item>
+                    <item id="extra">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
