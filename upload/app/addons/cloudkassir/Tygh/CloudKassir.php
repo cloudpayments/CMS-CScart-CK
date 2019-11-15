@@ -40,8 +40,10 @@ class CloudKassir
             'CustomerReceipt' => array(
                 'Items' => $this->getInventoryItems($order_info),
                 'taxationSystem' => $this->taxation_system,
+		'calculationPlace'=>'www.'.$_SERVER['SERVER_NAME'],
                 'email' => $order_info['email'],
-                'phone' => $order_info['phone']
+                'phone' => $order_info['phone'],
+		'amounts'=> array('electronic'=> floatval(number_format((float)$order_info['total'], 2, '.', '')))
             ),
             'InvoiceId' => $order_info['order_id'],
             'AccountId' => $order_info['email'],
@@ -67,8 +69,8 @@ class CloudKassir
             foreach ($receipt->getItems() as $item) {
                 $inventory_items[] = array(
                     'label'    => $item->getName(),
-                    'price'    => $item->getPrice(),
-                    'quantity' => $item->getQuantity(),
+                    'price'    => floatval(number_format((float)$item->getPrice(), 2, '.', '')),
+                    'quantity' => floatval(number_format((float)$item->getQuantity(), 2, '.', '')),
                     'amount'   => $item->getTotal(),
                     'vat'      => isset($map_taxes[$item->getTaxType()]) ? $map_taxes[$item->getTaxType()] : $map_taxes[TaxType::NONE]
                 );

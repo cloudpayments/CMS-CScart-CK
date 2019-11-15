@@ -16,7 +16,7 @@
                         <type>text</type>
                     </item>
                     <item id="secret_key">
-                        <type>password</type>
+                        <type>text</type>
                     </item>
                     <item id="inn">
                         <type>text</type>
